@@ -17,7 +17,7 @@ final class calculatorTest extends TestCase
   public function testNoInput(){
     $this->assertEquals('0', Calculator::calculate(null));
   }
-  
+
   public function testEmptyInput(){
     $this->assertEquals('0', Calculator::calculate(""));
   }
